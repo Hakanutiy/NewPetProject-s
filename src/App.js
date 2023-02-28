@@ -1,11 +1,11 @@
 import './style/main.scss'
 import './App.css'
-import { ModuleWin } from './features/component/ModuleWin'
+import { Quiz } from './features/component/quiz'
 
 function App() {
 	return (
 		<div className="App">
-			<ModuleWin />
+			<Quiz />
 		</div>
 	)
 }
